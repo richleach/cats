@@ -1,3 +1,11 @@
+Bug list:
+Pagination not working, prev and next buttons not loading next 20 images. It's a state thing, i even added my state value to the useEffect clause and it's not working
+
+Error trapping not yet implemented, no 404 page, no url checking/encoding, user can totally mess with url on catinfo page and blow it all up
+
+As I add more features I'll track the bugs here too.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,6 +42,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 To install after download: 
+
 • Create a .env file in the root, put your cat api key there (looks something like THE_CAT_API_KEY='ed6ff4ff-87f8-452f-9c22-fedf5fc6f088')
+
 • Add 'cdn2.thecatapi.com' to the next.config.js file under Images to allow images to be served from your localhost with CORS issues
+
 
