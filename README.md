@@ -32,3 +32,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+To install after download: 
+• Create a .env file in the root, put your cat api key there (looks something like THE_CAT_API_KEY='ed6ff4ff-87f8-452f-9c22-fedf5fc6f088')
+• Add 'cdn2.thecatapi.com' to the next.config.js file under Images to allow images to be served from your localhost with CORS issues
+
