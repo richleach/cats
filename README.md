@@ -1,5 +1,5 @@
 Bug list:
-Pagination not working, prev and next buttons not loading next 20 images. It's a state thing, i even added my state value to the useEffect clause and it's not working
+Pagination not working, prev and next buttons not loading next 20 images. It's a state thing, i even added my state value to the useEffect clause and it's still not working. Then my pizza finished cooking so, yeah, extra cheese ;-)
 
 Error trapping not yet implemented, no 404 page, no url checking/encoding, user can totally mess with url on catinfo page and blow it all up
 
