@@ -79,7 +79,7 @@ export default function Home() {
                   </span>
                 </div>
                 
-                <div className='relative my-1 overflow-hidden'> <img src={item.image.url} alt='Kitty' className='w-auto h-auto max-w-full mx-auto align-middle border-none rounded sm:object-scale-down md:object-contain h-36 sm:h-42'/>  
+                <div className='relative my-1 overflow-hidden'> <img src={item.image?.url ?? 'https://placehold.jp/150x150.png'} alt='Kitty' className='w-auto h-auto max-w-full mx-auto align-middle border-none rounded sm:object-scale-down md:object-contain h-36 sm:h-42'/>  
                 </div> 
               </a>  
                </Link> 
