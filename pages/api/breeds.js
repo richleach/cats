@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default async function handler(req, res) {
 console.log(req.page);
-  const apiEndpoint = `https://api.thecatapi.com/v1/breeds?limit=20&page=${req.page}`;
+  const apiEndpoint = `https://api.thecatapi.com/v1/breeds?limit=20&page=${req.query.page}`;
   try {
     const response = await axios.get(apiEndpoint, {
       headers: {
