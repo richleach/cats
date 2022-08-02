@@ -1,5 +1,5 @@
 Bug list:
-Pagination working again, thanks Vault guy! Pagination todo: The drilldown page's Lookup Another Cat button goes back to the right page but not the right place in the pagination sequence. If I'm on the second page of cats (technically 21-40), click a cat to view it, the click the Lookup Another Cat button, the pagination resets to the first page of cats (technically 1-20 (actually, TECHNICALLY 0-19))
+Pagination working again. Pagination todo: The drilldown page's Lookup Another Cat button goes back to the right page but not the right place in the pagination sequence. If I'm on the second page of cats (technically 21-40), click a cat to view it, the click the Lookup Another Cat button, the pagination resets to the first page of cats (technically 1-20 (actually, TECHNICALLY 0-19))
 
 Error trapping not yet implemented, no 404 page, no url checking/encoding, user can totally mess with url on catinfo page and blow it all up
 
